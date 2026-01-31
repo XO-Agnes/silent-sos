@@ -44,7 +44,7 @@ Silent SOS provides:
 git clone https://github.com/XO-Agnes/silent-sos.git
 cd silent-sos
 flutter pub get
-flutter run
+flutter run```
 
 ---
 
