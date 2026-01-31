@@ -5,18 +5,26 @@ Silent SOS is an accessibility-first emergency assistance app designed for situa
 ---
 
 ## 🧩 Problem Statement
-In emergency situations such as medical distress, panic, abuse, or shock, a person may be unable to speak or explain their condition. Existing solutions often rely on typing or voice input, which is not always possible.
+In emergency situations such as medical distress, panic attacks, abuse, accidents, or unconsciousness, a person may be unable to speak or explain their condition. Existing emergency solutions often rely on voice calls or typing, which are not always possible.
 
 ---
 
 ## ✅ Solution
-Silent SOS provides:
-- One-tap emergency alerts
-- Auto-generated emergency messages
-- Stored medical profile (blood group, conditions, contacts)
-- Live Google Maps location sharing
-- AI-enhanced message clarity using Google Gemini
-- Lock-screen emergency access UI for helpers
+Silent SOS provides a **silent, one-tap emergency system** that:
+- Works without voice interaction
+- Automatically attaches critical information
+- Is accessible even from the lock screen
+- Prioritizes clarity, speed, and inclusivity
+
+---
+
+## 📱 Key Features
+- 🏥 One-tap emergency categories (Medical, Police, etc.)
+- 🩺 Stored medical profile (name, blood group, conditions, allergies)
+- 🤖 AI-enhanced SOS messages using **Google Gemini**
+- 📍 Auto-attached **Google Maps live location**
+- 🔒 Lock-screen emergency access UI
+- ♿ Accessibility-first dark, high-contrast design
 
 ---
 
@@ -28,13 +36,28 @@ Silent SOS provides:
 
 ---
 
-## 📱 Key Features
-- 🏥 Emergency icon-based interface
-- 🩺 Medical profile storage
-- 🤖 Gemini AI–enhanced SOS messages
-- 📍 Auto-attached Google Maps location
-- 🔒 Lock-screen emergency access UI
-- ♿ Accessibility-first design
+## 🧠 How Gemini AI Is Used
+Google Gemini is used to:
+- Enhance SOS messages for **clarity and urgency**
+- Structure emergency text in a responder-friendly format
+- Reduce ambiguity during critical situations
+
+> ⚠️ For demo reliability, Gemini responses are currently simulated.  
+> The architecture is **fully API-ready** for real Gemini API integration.
+
+---
+
+## 👥 Team
+
+- Agnes Mary G 
+- Sharmili S
+- Musthafa Habibulla Athika
+- Suchitra Balaganesh  
+
+
+**Hackathon:** Flutter Sprint
+
+**Conducted by:**  Google Developer Community (GDC) 
 
 ---
 
@@ -44,17 +67,4 @@ Silent SOS provides:
 git clone https://github.com/XO-Agnes/silent-sos.git
 cd silent-sos
 flutter pub get
-flutter run```
-
----
-
-## 👥 Team
-This is a group project developed as part of a hackathon conducted under the **Google Developer Community (GDC)**.
-
----
-
-## 📌 Note
-This project is a prototype built for demonstration purposes.  
-Google Gemini API responses are currently simulated to ensure reliability during live demos.  
-The architecture is fully **API-ready** and can be connected to the real Gemini API for production deployment.
-
+flutter run
